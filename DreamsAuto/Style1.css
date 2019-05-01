@@ -1,0 +1,104 @@
+﻿body {
+    
+}
+.container{
+width :100% !important;
+}
+.logo_div {
+    background-color: #720404;
+    height: 159px;
+    width: 100%;
+    border: 1px solid #720404;
+}
+
+.menu_bar {
+    width: 100%;
+    height: 50px!important;
+    background-color: #720404;
+    color: #ffffff;
+}
+
+.menu_bar a{
+   
+    color: #ffffff;
+    font-weight : bold;
+    float :right;
+    margin :20px;
+    text-decoration : none;
+}
+
+.footer_section {
+    background-color: #720404;
+    border: 1px solid #720404;
+    width: 100%;
+    height: 250px !important;
+}
+
+.footer_section1 {
+    width: 30%;
+    height: 250px;
+    border: 1px solid #720404;
+    display: block;
+    float: left;
+}
+
+.footer_section1 a {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height:30px;
+  
+   margin-left:100px;
+  
+    text-decoration: none;
+    
+}
+    .footer_section1 h3 {
+        color: #ffffff;
+        margin: auto 40px;
+    }
+
+.footer_section2 {
+    width: 30%;
+    height: 250px;
+    border: 1px solid #720404;
+    display: block;
+    float: right;
+}
+
+.footer_section2 p{
+    color:#ffffff;
+}
+.footer_section3 {
+    width: 30%;
+    height: 250px;
+    border: 1px solid #720404;
+    display: block;
+    float: right;
+    margin-left :50px;
+}
+.footer_section3 p{
+
+color:#ffffff;
+}
+
+#btnSignIn {
+   
+   
+}
+.clear {
+    clear: both;
+}
+
+
+h2 {
+    font-size: 25px;
+}
+#btnAdmin {
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    display: block;
+    background-color: #720404;
+    float:right;
+}

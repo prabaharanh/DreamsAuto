@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DreamsAuto.Site1" %>
+
+<!DOCTYPE html>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<html>
+<head runat="server">
+    <title></title>
+   
+    <style type="text/css">
+        .newStylePage1 {
+
+        }
+    </style>
+    
+<link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+
+<body>
+    <div class ="container">
+
+   
+        <form id="form1" runat="server">
+
+   
+        <div class="container">
+          
+            <div class ="logo_div" style ="height:159px; width:100%;background-color:#720404;border:1px solid #720404;">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/logoimage.jpg" /> 
+               <h1 class="dreamsauto" style ="display:block;float:right;color:#FFFFFF;font-size:50PX;margin-right:30PX;">DREAMSAUTO PVT LTD</h1>
+              </div>
+              
+              
+               
+ 
+
+            
+            <div class ="menu_bar">
+                  <a href="Login.aspx">LOGIN</a>
+                  <a href="Register.aspx">REGISTER</a>
+                  
+           <a href="ContactUs.aspx">CONTACT US</a>
+                <a href="Testimonials.aspx">TESTIMONIALS</a>
+                <a href="Finance.aspx">FINANCE</a>
+                <a href="Insurance.aspx">INSURANCE</a>
+                <a href="TradeIn.aspx">TRADE-IN</a>
+                <a href="AboutUs.aspx">ABOUT US</a>
+                <a href="Home.aspx">HOME</a>
+               
+                            
+              </div>
+
+                  
+                 
+                    
+               <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+                    </asp:ContentPlaceHolder>
+
+                </div>
+
+                       <div class="clear"></div>      
+                            
+                       
+                    <div class="footer_section">
+                       
+                             
+                       <div class="footer_section1">     
+                          <br />
+                             <a href="Home.aspx">HOME</a><br/>
+                             <a href="AboutUs.aspx">ABOUT US</a><br/>
+                             <a href="TradeIn.aspx">TRADE-IN</a><br/>
+                            <a href="Insurance.aspx">INSURANCE</a><br/>
+                             <a href="Finance.aspx">FINANCE</a><br/>
+                             <a href="Testimonials.aspx">TESTIMONIALS</a><br/>
+                            <a href="ContactUs.aspx">CONTACT US</a><br/>
+                          </div>
+                        <!--<div class="clear"></div>-->
+                        <div class="footer_section2">
+                           <br />
+                            <p>CONTACT US :</p>
+                            <p>HOME : 0220191451</p>
+                            <p>MOBILE : 0220198734</p>
+                        </div>
+                           <!-- <div class="clear"></div>-->
+                     <div class ="footer_section3">
+                           <br />
+                            <p class ="address1">ADDRESS : </p>
+                            <p class ="address1">4/40 TURAMA ROAD</p>
+                            <p class ="address1">ROYAL OAK</p>
+                            <p class ="address1">AUCKLAND 1023</p>
+                            
+                  </div>
+                          
+                        <p style ="text-align:center">&copy;autodreamsnz</p>
+            </div>
+    </div>
+               
+          
+    
+        </form>
+               
+       </div>   
+    
+</body>
+</html>
