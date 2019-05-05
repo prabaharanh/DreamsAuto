@@ -191,10 +191,8 @@ a {
            Product Detail
 
           </a>-->
-             <a href="ProuctDetails.aspx?carId= <%#Eval("carId") %>" 
-            <asp:Button ID="Button1" runat="server" Text="View Details" />
-                 VIEW DETAILS
-            </a>
+             <a href="ProuctDetails.aspx?carId= <%#Eval("carId") %>">  <asp:Button ID="Button1" runat="server" Text="View Details" />
+         View Details </a>
          
 
           

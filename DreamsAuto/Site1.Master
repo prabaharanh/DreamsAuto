@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DreamsAuto.Site1" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DreamsAuto.Site1" %>
 
 <!DOCTYPE html>
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -47,7 +47,7 @@
                 <a href="Insurance.aspx">INSURANCE</a>
                 <a href="TradeIn.aspx">TRADE-IN</a>
                 <a href="AboutUs.aspx">ABOUT US</a>
-                <a href="Home.aspx">HOME</a>
+                <a href="Default.aspx">HOME</a>
                
                             
               </div>
