@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -20,7 +20,7 @@ namespace DreamsAuto
 
             {
 
-                String test = @"~\carImages\";
+                String test = @"~\images\";
 
                 string fileName = CarImage.PostedFile.FileName.ToString();
 

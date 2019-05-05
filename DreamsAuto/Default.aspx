@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DreamsAuto.WebForm1" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="DreamsAuto.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Image ID="Image2" runat="server" ImageUrl="~/images/carimage1.jpg" Height="" Width="100%" />
 
@@ -161,7 +161,7 @@ a {
 
      </div>
 
-        <img src=/carimages/<%#Eval("carImage") %> alt="" style="height:300px">
+        <img src=/images/<%#Eval("carImage") %> alt="" style="height:300px">
 
         <div class="card-body position-relative d-flex flex-column" style ="text-align:center">
 
@@ -191,8 +191,10 @@ a {
            Product Detail
 
           </a>-->
-             <a href="ProuctDetails.aspx?carId= <%#Eval("carId") %>">  <asp:Button ID="Button1" runat="server" Text="View Details" />
-         View Details </a>
+             <a href="ProuctDetails.aspx?carId= <%#Eval("carId") %>" 
+            <asp:Button ID="Button1" runat="server" Text="View Details" />
+                 VIEW DETAILS
+            </a>
          
 
           
