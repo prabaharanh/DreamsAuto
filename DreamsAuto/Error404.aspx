@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Error404.aspx.cs" Inherits="DreamsAuto.WebForm17" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Error404.aspx.cs" Inherits="DreamsAuto.WebForm17" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h3 class="title">
         <asp:image id="Image1" runat="server" imageurl="~/Images/error.png" width="50" /> &nbsp
@@ -12,6 +12,6 @@
         Page Not Found!
         <br/>
         <br/>
-        <a href="Home.aspx" class="ui-state-focus">Return to the homepage</a>
+        <a href="Default.aspx" class="ui-state-focus">Return to the homepage</a>
     </div>
 </asp:Content>

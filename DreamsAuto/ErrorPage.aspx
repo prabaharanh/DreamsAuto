@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ErrorPage.aspx.cs" Inherits="DreamsAuto.WebForm15" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ErrorPage.aspx.cs" Inherits="DreamsAuto.WebForm15" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <h3 class="title">
         <asp:image id="Image1" runat="server" imageurl="~/Images/error.png" width="50" /> &nbsp
@@ -8,7 +8,7 @@
             An unexpected error occurred on our website. 
             
         </div>
-        <a href="Home.aspx" class="ui-state-focus">Return to the homepage</a>
+        <a href="Default.aspx" class="ui-state-focus">Return to the homepage</a>
     </div>
 
 </asp:Content>
